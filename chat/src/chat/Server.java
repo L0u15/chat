@@ -95,6 +95,11 @@ public class Server extends JFrame {
         ableToType(true);
         do{
             // have a conversation
-        }while();
+            try{
+                
+            }catch(ClassNotFoundException e){
+                showMessage("\n blalblabla");
+            }
+        }while(!message.equals("CLIENT - END"));
     }
 }
